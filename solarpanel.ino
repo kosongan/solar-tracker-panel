@@ -144,7 +144,7 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        {
        delay(150);
        servo.write(1);
-       for(derajat=1;derajat <= 176; derajat+=1.5)             // sudut awal 6.00, 0 derajat, bergerak 1.5 derajat setiap 5 menit
+       for(derajat=1;derajat <= 176; derajat+=1.5)             // sudut awal 6.00, 1 derajat, bergerak 1.5 derajat setiap 5 menit
        {
        servo.write(derajat);                 
        delay(300000);
@@ -161,7 +161,7 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        {
        delay(150);
        servo.write(4);
-       for(derajat=4;derajat <= 176; derajat+=1)             // sudut awal 6.00, 0 derajat, bergerak 1 derajat setiap 4 menit
+       for(derajat=4;derajat <= 176; derajat+=1)             // sudut awal 6.00, 4 derajat, bergerak 1 derajat setiap 4 menit
        {
        servo.write(derajat);                 
        delay(240000);
@@ -173,5 +173,56 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        }
        delay(43200000);
        }  
+        
+else if  (waktu.mon=10 && waktu.hour=6 && waktu.min=0)       // Oktober
+       {
+       delay(150);
+       servo.write(8);
+       for(derajat=8;derajat <= 176; derajat+=1)             // sudut awal 6.00, 8 derajat, bergerak 1 derajat setiap 4 menit
+       {
+       servo.write(derajat);                 
+       delay(240000);
+       }
+       for(derajat=176;derajat>=0;derajat-=5)
+       {
+       servo.write(derajat);
+       delay(500);
+       }
+       delay(43200000);
+       }  
+        
+else if  (waktu.mon=11 && waktu.hour=6 && waktu.min=0)       // November
+       {
+       delay(150);
+       servo.write(10);
+       for(derajat=10;derajat <= 176; derajat+=1)             // sudut awal 6.00, 8 derajat, bergerak 1 derajat setiap 4 menit
+       {
+       servo.write(derajat);                 
+       delay(240000);
+       }
+       for(derajat=176;derajat>=0;derajat-=5)
+       {
+       servo.write(derajat);
+       delay(500);
+       }
+       delay(43200000);
+       }        
+        
+      else  (waktu.mon=12 && waktu.hour=6 && waktu.min=0)       // Desember
+       {
+       delay(150);
+       servo.write(8);
+       for(derajat=8;derajat <= 176; derajat+=1.4)             // sudut awal 6.00, 8 derajat, bergerak 1 derajat setiap 4 menit
+       {
+       servo.write(derajat);                 
+       delay(300000);
+       }
+       for(derajat=176;derajat>=0;derajat-=5)
+       {
+       servo.write(derajat);
+       delay(500);
+       }
+       delay(43200000);
+       }        
         
 }
