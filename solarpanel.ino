@@ -18,7 +18,7 @@ void loop()
 
 {
  
-    if (waktu.mon=1 && waktu.hour=6 && waktu.min=0)               // Januari
+    if (waktu.mon == 1 && waktu.hour >= 6 && waktu.min >=0)               // Januari
        {  
        delay(150);
        servo.write(8);
@@ -35,7 +35,7 @@ void loop()
        delay(43200000);                                          // menunggu 12 jam untuk kembali bergerak 
        }
 
-else if (waktu.mon=2 && waktu.hour=6 && waktu.min=0)             // Februari
+else if (waktu.mon==2 && waktu.hour==6 && waktu.min==0)             // Februari
         {
         delay(150);
         servo.write(2);
@@ -54,7 +54,7 @@ else if (waktu.mon=2 && waktu.hour=6 && waktu.min=0)             // Februari
        }
   
 
-else if (waktu.mon=3 && waktu.hour=6 && waktu.min=0)             // Maret
+else if (waktu.mon==3 && waktu.hour==6 && waktu.min==0)             // Maret
        {
        (delay(150);
        servo.write(2); 
@@ -71,7 +71,7 @@ else if (waktu.mon=3 && waktu.hour=6 && waktu.min=0)             // Maret
       delay(43200000);
        }
 
-else if  (waktu.mon=4 && waktu.hour=6 && waktu.min=0)           // April
+else if  (waktu.mon==4 && waktu.hour==6 && waktu.min==0)           // April
        {
        delay(150);
        servo.write(2);
@@ -89,7 +89,7 @@ else if  (waktu.mon=4 && waktu.hour=6 && waktu.min=0)           // April
        }  
 
   
-else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
+else if  (waktu.mon==5 && waktu.hour==6 && waktu.min==0)          // Mei
        {
        delay(150);
        servo.write(2);
@@ -106,7 +106,7 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        delay(43200000);
        }  
         
-  else if  (waktu.mon=6 && waktu.hour=6 && waktu.min=0)        // Juni
+  else if  (waktu.mon==6 && waktu.hour==6 && waktu.min==0)        // Juni
        {
        delay(150);
        servo.write(0);
@@ -123,7 +123,7 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        delay(43200000);
        }  
         
-   else if  (waktu.mon=7 && waktu.hour=6 && waktu.min=0)      // Juli
+   else if  (waktu.mon==7 && waktu.hour==6 && waktu.min==0)      // Juli
        {
        delay(150);
        servo.write(0);
@@ -140,7 +140,7 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        delay(43200000);
        }  
         
-   else if  (waktu.mon=8 && waktu.hour=6 && waktu.min=0)       // Agustus
+   else if  (waktu.mon==8 && waktu.hour==6 && waktu.min==0)       // Agustus
        {
        delay(150);
        servo.write(1);
@@ -157,7 +157,7 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        delay(43200000);
        }  
         
-   else if  (waktu.mon=9 && waktu.hour=6 && waktu.min=0)       // September
+   else if  (waktu.mon==9 && waktu.hour==6 && waktu.min==0)       // September
        {
        delay(150);
        servo.write(4);
@@ -174,7 +174,7 @@ else if  (waktu.mon=5 && waktu.hour=6 && waktu.min=0)          // Mei
        delay(43200000);
        }  
         
-else if  (waktu.mon=10 && waktu.hour=6 && waktu.min=0)       // Oktober
+else if  (waktu.mon==10 && waktu.hour==6 && waktu.min==0)       // Oktober
        {
        delay(150);
        servo.write(8);
@@ -191,7 +191,7 @@ else if  (waktu.mon=10 && waktu.hour=6 && waktu.min=0)       // Oktober
        delay(43200000);
        }  
         
-else if  (waktu.mon=11 && waktu.hour=6 && waktu.min=0)       // November
+else if  (waktu.mon==11 && waktu.hour==6 && waktu.min==0)       // November
        {
        delay(150);
        servo.write(10);
@@ -208,7 +208,7 @@ else if  (waktu.mon=11 && waktu.hour=6 && waktu.min=0)       // November
        delay(43200000);
        }        
         
-      else  (waktu.mon=12 && waktu.hour=6 && waktu.min=0)       // Desember
+      else  (waktu.mon==12 && waktu.hour==6 && waktu.min==0)       // Desember
        {
        delay(150);
        servo.write(8);
