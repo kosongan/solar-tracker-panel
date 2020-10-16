@@ -39,6 +39,8 @@ void loop()
                                 servo.write(derajat);                                   
                                 Serial.print(derajat); 
                                 Serial.print(" ");
+                                lcd.setCursor(9,1);
+                                lcd.print(derajat);      
                                 a;
                                 while (a=millis-b == 300000)
                                 {a=millis();}
@@ -51,6 +53,8 @@ void loop()
                                 servo.write(derajat);                           
                                 Serial.print(derajat); 
                                 Serial.print(" ");
+                                lcd.setCursor(9,1);
+                                lcd.print(derajat);
                                 a;
                                 while (a=millis-b == 300000)
                                 {a=millis();}
@@ -77,6 +81,8 @@ void loop()
                                 servo.write(derajat);               
                                 Serial.print(derajat); 
                                 Serial.print(" ");
+                                lcd.setCursor(9,1);
+                                lcd.print(derajat);
                                 a;
                                 while (a=millis-b == 300000)
                                 {a=millis();}      
@@ -88,7 +94,9 @@ void loop()
                           {
                                 servo.write(derajat);
                                 Serial.print(derajat);
-                                Serial.print(" "); 
+                                Serial.print(" ");
+                                lcd.setCursor(9,1);
+                                lcd.print(derajat);
                                 a;
                                 while (a=millis-b == 300000)
                                 {a=millis();}      
@@ -112,7 +120,9 @@ void loop()
                                       {
                                       servo.write(derajat);
                                       Serial.print(derajat);
-                                      Serial.print(" "); 
+                                      Serial.print(" ");
+                                      lcd.setCursor(9,1);
+                                      lcd.print(derajat);
                                       a;
                                       while (a=millis-b == 300000)
                                       {a=millis();}      
@@ -124,7 +134,9 @@ void loop()
                                       {
                                       servo.write(derajat);
                                       Serial.print(derajat);
-                                      Serial.print(" "); 
+                                      Serial.print(" ");
+                                      lcd.setCursor(9,1);
+                                      lcd.print(derajat);
                                       a;
                                       while (a=millis-b == 300000)
                                       {a=millis();} 
@@ -152,6 +164,8 @@ void loop()
                                       servo.write(derajat);               
                                       Serial.print(derajat);
                                       Serial.print(" "); 
+                                      lcd.setCursor(9,1);
+                                      lcd.print(derajat);      
                                       a;
                                       while (a=millis-b == 300000)
                                       {a=millis();}       
@@ -164,6 +178,8 @@ void loop()
                                       servo.write(derajat);
                                       Serial.print(derajat); 
                                       Serial.print(" ");
+                                      lcd.setCursor(9,1);
+                                      lcd.print(derajat);
                                       a;
                                       while (a=millis-b == 300000)
                                       {a=millis();}       
@@ -191,6 +207,8 @@ void loop()
                                     servo.write(derajat);                 
                                     Serial.print(derajat); 
                                     Serial.print(" ");
+                                    lcd.setCursor(9,1);
+                                    lcd.print(derajat);
                                     a;
                                     while (a=millis-b == 300000)
                                     {a=millis();}      
